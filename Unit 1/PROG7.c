@@ -1,3 +1,6 @@
+/*Delete an element from the array from user defined position.
+Name:Tanviba Zala
+Enrollment no.:92500527103/*
 #include<stdio.h>
 
 void main()
