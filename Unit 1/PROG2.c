@@ -1,6 +1,6 @@
 /* Create an array of size 10,input values and display sum and average of all elements in the array.
-Name:Daksh Zala
-Enrollment no.:92500527106 */
+Name:Tanviba Zala
+Enrollment no.:92500527103 */
 
 #include<stdio.h>
 void main()
