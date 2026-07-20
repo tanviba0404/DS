@@ -1,32 +1,33 @@
 #include<stdio.h>
+
 void main()
 {
-   int a [20], i, pos,val,n;
-   printf("\n Enter limit :");
-   scanf("%d",&n);
+    int a[20], i, pos, n;
 
-   for(i=0;i<n;i++)
-   {
-   printf("\n Enter value %d :",i+1);
-   scanf("%d",&a[i]);
-   }
+    printf("\n Enter limit :");
+    scanf("%d",&n);
 
-   printf("\n Enter position at which you want to insert value :");
-   scanf("%d",&pos);
-   pos=pos-1;
-   printf("\n Enter New value to be inserted :");
-   scanf("%d",&val);
-   for(i=n;i>=pos;i++)
-   {
-       a[i]=a[i+1];
-   }
-// CODE IS INCOMPLETE...
-    a[pos]=val;
-    for(i=0;i<n+1;i++)
+    for(i=0;i<n;i++)
+    {
+        printf("\n Enter value %d :",i+1);
+        scanf("%d",&a[i]);
+    }
 
-   {
-     printf("\n %d",a[i]);
-   }
+    printf("\n Enter position to delete :");
+    scanf("%d",&pos);
 
-   }
+    pos = pos - 1;
 
+    for(i=pos;i<n-1;i++)
+    {
+        a[i] = a[i+1];
+    }
+
+    n--;
+
+    printf("\nArray after deletion:\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%d ",a[i]);
+    }
+}
