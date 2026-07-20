@@ -1,3 +1,6 @@
+/*Insert an element into the array at user defined position.
+Name:Tanviba Zala
+Enrollment no.:92500527103/*
 #include<stdio.h>
 void main()
 {
