@@ -1,3 +1,7 @@
+/* Implement stack using array with following operations:push,pop,print,peek,peep,change,exit.
+Name:Tanviba Zala
+Enrollment no.:92500527103 */
+
 #include<stdio.h>
 #define MAX 3
 
