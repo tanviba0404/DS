@@ -1,4 +1,5 @@
-#include<stdio.h>
+/* Write a program which performs the following operations using a simple queue: insert()->delete()->display().
+    #include<stdio.h>
 #define MAX 5
 
 int queue[MAX];
