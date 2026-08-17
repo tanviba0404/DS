@@ -1,4 +1,4 @@
-/* Write a program to find Minimum and Maximum numbers from the given array with recursion.
+/* Write a program to find Minimum and Maximum numbers from the given array without recursion.
 Name:Tanviba Zala
 Enrollment no.:92500527103 */
 
